@@ -1,4 +1,4 @@
-# JavaFX_Table
+# JavaFX_Parser
 Работа с таблицами в JavaFX
 
 ![Screenshot](Screenshot1.png)
