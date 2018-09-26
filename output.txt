@@ -1,0 +1,1 @@
+null  SQL Server management Studio        Create Database                 Use     Create table                Primary key  Foreign Key      1   SQL Server management Studio        Create Database                 Use     Create table                Primary key  Foreign Key      1 

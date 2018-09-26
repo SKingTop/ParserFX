@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="242.0" prefWidth="343.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parserfx.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="74.0" layoutY="174.0" minHeight="16" minWidth="69" />
+      <Button fx:id="button_open" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#button_openAction" prefHeight="66.0" prefWidth="317.0" text="Открыть">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="button_start" layoutX="15.0" layoutY="158.0" mnemonicParsing="false" onAction="#button_startAction" prefHeight="66.0" prefWidth="318.0" text="Старт">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="CheckBox1" layoutX="14.0" layoutY="102.0" mnemonicParsing="false" text="Русские буквы" />
+      <CheckBox fx:id="CheckBox2" layoutX="182.0" layoutY="102.0" mnemonicParsing="false" text="Пробелы" />
+      <CheckBox fx:id="CheckBox3" layoutX="15.0" layoutY="130.0" mnemonicParsing="false" text="Английские буквы" />
+      <CheckBox fx:id="CheckBox4" layoutX="182.0" layoutY="130.0" mnemonicParsing="false" text="Цифры" />
+    </children>
+</AnchorPane>
